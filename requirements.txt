@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+tqdm
+datasets
+transformers
+sentencepiece
+spacy
+nltk
+sentence-transformers
+scipy
+notebook
+jupyterlab
+matplotlib
+seaborn
+google-generativeai
+streamlit
