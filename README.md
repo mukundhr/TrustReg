@@ -1,4 +1,4 @@
-# TrustReg — Domain-Aware Governance for Legal LLM Outputs
+# TrustReg - Domain-Aware Governance for Legal LLM Outputs
 
 TrustReg is an experimental AI governance framework for legal large language model (LLM) outputs.  
 It studies **why hallucination-based governance fails**, and demonstrates how **domain-aware harm modeling and policy learning** can improve decision safety while preserving usefulness.
@@ -67,16 +67,16 @@ Where:
 
 TrustReg introduces causal governance features:
 
-- **FactRisk** — Probability that the answer contains incorrect or fabricated factual claims.  
-- **InterpretationRisk** — Risk that the legal interpretation of the answer is misleading or incorrect.  
-- **RetrievalMismatch** — Degree to which the answer is unsupported by the retrieved source text.  
-- **ConfidenceGap** — Difference between answer confidence and retrieval evidence strength.  
-- **DomainRisk** — Intrinsic risk level of the domain in which the answer is given.  
-- **ActionRisk** — Likelihood that the answer encourages user action with real-world consequences.  
-- **AuthorityRisk** — Risk of the answer falsely claiming legal authority or precedent.  
-- **SeverityRisk** — Severity of the legal consequences discussed in the answer.  
-- **ArticleRisk** — Importance level of the legal article or right involved.  
-- **ImpactRisk** — Degree to which the answer can influence user legal decisions.  
+- **FactRisk** - Probability that the answer contains incorrect or fabricated factual claims.  
+- **InterpretationRisk** - Risk that the legal interpretation of the answer is misleading or incorrect.  
+- **RetrievalMismatch** - Degree to which the answer is unsupported by the retrieved source text.  
+- **ConfidenceGap** - Difference between answer confidence and retrieval evidence strength.  
+- **DomainRisk** - Intrinsic risk level of the domain in which the answer is given.  
+- **ActionRisk** - Likelihood that the answer encourages user action with real-world consequences.  
+- **AuthorityRisk** - Risk of the answer falsely claiming legal authority or precedent.  
+- **SeverityRisk** - Severity of the legal consequences discussed in the answer.  
+- **ArticleRisk** - Importance level of the legal article or right involved.  
+- **ImpactRisk** - Degree to which the answer can influence user legal decisions.  
   
 
 These features model **legal decision consequences**, not just text similarity.
