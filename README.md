@@ -129,9 +129,12 @@ The dataset was capped at approximately 1,200 samples as a deliberate tradeoff b
 At this scale, governance behaviors and failure modes (e.g., hallucination-based governance failure, harm-only collapse, and harm–utility stabilization) were already clearly observable. Increasing the dataset size further would have primarily reduced statistical variance while significantly increasing LLM inference time and cloud cost.
 
 Because the objective of this project was to validate governance mechanisms rather than benchmark model performance at scale, ~1.2k samples provided sufficient signal while enabling rapid iteration and keeping total cloud cost under ₹35 (~$0.38).
+
+
 ---
 
 ## TrustReg Dashboard
+
 
 A Streamlit dashboard visualizes:
 
