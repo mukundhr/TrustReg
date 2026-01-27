@@ -5,8 +5,6 @@ It studies **why hallucination-based governance fails**, and demonstrates how **
 
 Instead of treating hallucinations as the core problem, TrustReg treats governance as a **decision policy optimization problem** over harm and utility.
 
----
-
 ## Motivation
 
 LLMs are increasingly used in legal contexts such as:
@@ -120,8 +118,6 @@ This exposes a **governance frontier**, not a single best model.
 3. Utility-aware governance stabilizes decisions.  
 4. Domain-aware harm modeling enables real improvement.  
 5. Model choice controls the harm–utility tradeoff.  
-
----
 ## Dataset Size Choice and Tradeoffs
 
 The dataset was capped at approximately 1,200 samples as a deliberate tradeoff between data sufficiency, iteration speed, and cost efficiency.
@@ -129,9 +125,6 @@ The dataset was capped at approximately 1,200 samples as a deliberate tradeoff b
 At this scale, governance behaviors and failure modes (e.g., hallucination-based governance failure, harm-only collapse, and harm–utility stabilization) were already clearly observable. Increasing the dataset size further would have primarily reduced statistical variance while significantly increasing LLM inference time and cloud cost.
 
 Because the objective of this project was to validate governance mechanisms rather than benchmark model performance at scale, ~1.2k samples provided sufficient signal while enabling rapid iteration and keeping total cloud cost under ₹35 (~$0.38).
-
-
----
 
 ## TrustReg Dashboard
 
