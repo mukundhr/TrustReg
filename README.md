@@ -118,6 +118,38 @@ This exposes a **governance frontier**, not a single best model.
 3. Utility-aware governance stabilizes decisions.  
 4. Domain-aware harm modeling enables real improvement.  
 5. Model choice controls the harm–utility tradeoff.  
+
+## Local Setup (Quick Start)
+
+### Requirements
+
+- **Python:** 3.10+ recommended
+- **Dependencies:** See [TrustReg/requirements.txt](TrustReg/requirements.txt)
+
+### Installation
+
+1. Create and activate a virtual environment (optional but recommended).
+2. Install dependencies:
+
+	pip install -r requirements.txt
+
+### Required Data Files
+
+- Dashboard expects [TrustReg/outputs/trustreg_model_comparison.csv](TrustReg/outputs/trustreg_model_comparison.csv)
+- Notebooks use [TrustReg/data/ecthr_base.csv](TrustReg/data/ecthr_base.csv)
+
+### Environment Variables (if running LLM generation)
+
+- `GOOGLE_API_KEY` for Gemini via `google-generativeai`
+
+### Run the Dashboard
+
+1. From the project root (TrustReg), run:
+
+	streamlit run app.py
+
+2. Open the local URL shown in the terminal.
+
 ## Dataset Size Choice and Tradeoffs
 
 The dataset was capped at approximately 1,200 samples as a deliberate tradeoff between data sufficiency, iteration speed, and cost efficiency.
